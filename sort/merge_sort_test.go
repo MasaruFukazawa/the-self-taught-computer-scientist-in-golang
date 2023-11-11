@@ -4,11 +4,11 @@ import (
 	"testing"
 )
 
-func TestBubbleSort(t *testing.T) {
+func TestMergeSort(t *testing.T) {
 
 	nums := []int{4, 1, 3, 5, 2}
 
-	BubbleSort(nums)
+	MergeSort(nums)
 
 	// Check if the array is sorted
 	for i := 0; i < len(nums)-1; i++ {

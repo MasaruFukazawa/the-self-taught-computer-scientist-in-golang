@@ -1,4 +1,4 @@
-package bubble_sort
+package sort
 
 // BubbleSort sorts a slice of integers using the bubble sort algorithm.
 func BubbleSort(nums []int) {
